@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+:root {
+  --system-font: "Pretendard Variable", -apple-system, blinkmacsystemfont,
+    "Segoe UI", roboto, helvetica, arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  --red-900: #5c0101;
+  --red-800: #820101;
+  --red-700: #a00303;
+  --red-600: #c20404;
+  --red-500: #dc0a0a;
+  --red-400: #f20e0e;
+  --red-300: #f63846;
+  --red-200: #ff6873;
+  --red-100: #ffbbc0;
+  --red-50: #ffe5e7;
+  --ns-red-500: var(--red-500);
+  --ns-red-300: var(--red-300);
+  --ns-red-100: var(--red-100);
+  --black: #000;
+  --gray-900: #111;
+  --gray-800: #3f3f3f;
+  --gray-700: #585858;
+  --gray-600: #757575;
+  --gray-500: #9e9e9e;
+  --gray-400: #b1b1b1;
+  --gray-300: #ddd;
+  --gray-200: #ececec;
+  --gray-100: #f6f6f6;
+  --gray-50: #f8f8f8;
+  --white: #fff;
+  --error-900: #9a2500;
+  --error-800: #a82800;
+  --error-700: #d73400;
+  --error-600: #eb2a00;
+  --error-500: #fa3307;
+  --error-400: #fb5c39;
+  --error-300: #fc856a;
+  --error-200: #fdae9c;
+  --error-100: #fed6cd;
+  --error-50: #feebe6;
+  --ns-error: var(--error-500);
+  --info-900: #003c93;
+  --info-800: #0751ba;
+  --info-700: #0360e4;
+  --info-600: #0e6bf0;
+  --info-500: #2a81fd;
+  --info-400: #559afd;
+  --info-300: #7fb3fe;
+  --info-200: #aacdfe;
+  --info-100: #d4e6ff;
+  --info-50: #eaf2ff;
+  --ns-info: var(--info-600);
+  --success-900: #206400;
+  --success-800: #2a8400;
+  --success-700: #2e9300;
+  --success-600: #349f03;
+  --success-500: #40aa0f;
+  --success-400: #66bb3f;
+  --success-300: #8ccc6f;
+  --success-200: #b3dd9f;
+  --success-100: #d9eecf;
+  --success-50: #ecf7e7;
+  --ns-success: var(--success-500);
+  --warning-900: #a47700;
+  --warning-800: #c48e00;
+  --warning-700: #dfa100;
+  --warning-600: #eba900;
+  --warning-500: #f7b42a;
+  --warning-400: #f9c355;
+  --warning-300: #fad27f;
+  --warning-200: #fce1aa;
+  --warning-100: #fdf0d4;
+  --warning-50: #fef7ea;
+  --ns-warning: var(--warning-500);
+  /* 방어코드 */
+  --vh: 1vh;
+}
