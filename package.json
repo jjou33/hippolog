@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "turbo start:live",
+    "test": "pnpm build && pnpm dev",
     "build": "turbo build",
     "serve": "turbo build:start"
   },
